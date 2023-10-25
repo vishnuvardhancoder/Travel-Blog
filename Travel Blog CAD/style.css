@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #F4BF96; /* Change the color on hover */
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#featured-post {
+    background-color: #F4BF96; /* Custom background color */
+    color: #fff;
+    padding: 20px;
+}
+
+.featured-post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#recent-posts {
+    margin-top: 20px;
+}
+
+.recent-posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+}
+
+.post:hover {
+    transform: scale(1.05); /* Enlarge the post on hover */
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+article {
+    text-align: left;
+}
+
+img {
+    width:250px;
+    height:250px;
+}
+
+h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+a {
+    color: #CE5A67;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.post-interactions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.post-interactions button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.post-interactions button:hover {
+    background-color: #2980b9;
+}
+
+.like-count, .comment-count {
+    margin-left: 10px;
+}
+
